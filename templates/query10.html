@@ -1,0 +1,12 @@
+<html>
+    <h1>All Teams That Have Played in the Premier League 2002-2021</h1>
+    <table border = 1>
+    {% for user in userDetails %}
+        <tr>
+            <td>{{user[0]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href = '/'>Back to homepage</a>
+</html>
